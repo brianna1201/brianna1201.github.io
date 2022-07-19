@@ -1,0 +1,1392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Example1 | Bobae’s Laboratory</title>
+<meta name="generator" content="Jekyll v4.2.2">
+<meta property="og:title" content="Example1">
+<meta name="author" content="Bobae Kim">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Global Growth Cycle">
+<meta property="og:description" content="Global Growth Cycle">
+<link rel="canonical" href="https://brianna1201.github.io/jekyll-theme-yat/example/2022/07/19/test-site.html">
+<meta property="og:url" content="https://brianna1201.github.io/jekyll-theme-yat/example/2022/07/19/test-site.html">
+<meta property="og:site_name" content="Bobae’s Laboratory">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2022-07-19T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Example1">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Bobae Kim"},"dateModified":"2022-07-19T00:00:00+00:00","datePublished":"2022-07-19T00:00:00+00:00","description":"Global Growth Cycle","headline":"Example1","mainEntityOfPage":{"@type":"WebPage","@id":"https://brianna1201.github.io/jekyll-theme-yat/example/2022/07/19/test-site.html"},"url":"https://brianna1201.github.io/jekyll-theme-yat/example/2022/07/19/test-site.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="shortcut icon" href="">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="/jekyll-theme-yat/assets/css/main.css">
+  <script src="/jekyll-theme-yat/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="https://brianna1201.github.io/jekyll-theme-yat/feed.xml" title="Bobae's Laboratory">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Init highlight js
+document.addEventListener('DOMContentLoaded', function(event) {
+  var els = document.querySelectorAll('pre code')
+
+  function addLangData(block) {
+    var outer = block.parentElement.parentElement.parentElement;
+    var lang = block.getAttribute('data-lang');
+    for (var i = 0; i < outer.classList.length; i++) {
+      var cls = outer.classList[i];
+      if (cls.startsWith('language-')) {
+        lang = cls;
+        break;
+      }
+    }
+    if (!lang) {
+      cls = block.getAttribute('class');
+      lang = cls ? cls.replace('hljs ', '') : '';
+    }
+    if (lang.startsWith('language-')) {
+      lang = lang.substr(9);
+    }
+    block.setAttribute('class', 'hljs ' + lang);
+    block.parentNode.setAttribute('data-lang', lang);
+  }
+
+  function addBadge(block) {
+    var enabled = ('true' || 'true').toLowerCase();
+    if (enabled == 'true') {
+      var pre = block.parentElement;
+      pre.classList.add('badge');
+    }
+  }
+
+  function handle(block) {
+    addLangData(block);
+    addBadge(block)
+    hljs.highlightBlock(block);
+  }
+
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    handle(el);
+  }
+});
+</script>
+
+<style>
+  /* code language badge */
+  pre.badge::before {
+    content: attr(data-lang);
+    color: #fff;
+    background-color: #ff4e00;
+    padding: 0 .5em;
+    border-radius: 0 2px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  /* fix wrong badge display for firefox browser */
+  code > table pre::before {
+    display: none;
+  }
+</style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header " role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner">
+<span class="site-brand"><a class="site-brand-inner" rel="author" href="/jekyll-theme-yat/">
+  <img class="site-favicon" title="Bobae's Laboratory" src="" onerror="this.style.display='none'">
+  Bobae's Laboratory
+</a>
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/jekyll-theme-yat/about.html">ABOUT</a><a class="page-link" href="/jekyll-theme-yat/archives.html">ARCHIVES</a><a class="page-link" href="/jekyll-theme-yat/categories.html">CATEGORIES</a><a class="page-link" href="/jekyll-theme-yat/">HOME</a><a class="page-link" href="/jekyll-theme-yat/tags.html">TAGS</a>
+
+
+
+
+
+
+
+
+
+<span class="page-link">
+
+
+
+<div id="google_translate_element" style="display: none;">
+</div>
+
+<span class="ct-language">
+  <ul class="list-unstyled ct-language-dropdown">
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="en">
+          
+          <img src="https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png" title="English">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="fr">
+          
+          <img src="https://cdn.countryflags.com/thumbs/france/flag-400.png" title="French">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="zh-CN">
+          
+          <img src="https://cdn.countryflags.com/thumbs/china/flag-400.png" title="Chinese(Simple)">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ja">
+          
+          <img src="https://cdn.countryflags.com/thumbs/japan/flag-400.png" title="Japanese">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ko">
+          
+          <img src="https://cdn.countryflags.com/thumbs/south-korea/flag-400.png" title="Korean">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ru">
+          
+          <img src="https://cdn.countryflags.com/thumbs/russia/flag-400.png" title="Russian">
+          
+        </a>
+      </li>
+    
+  </ul>
+</span>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.VERTICAL
+  }, 'google_translate_element');
+
+  // Links to cross-origin destinations are unsafe
+  var gll = document.getElementsByClassName('goog-logo-link')[0];
+  if (gll) {
+    gll.setAttribute('rel', 'noopener');
+  }
+
+  function restoreLang() {
+    var iframe = document.getElementsByClassName('goog-te-banner-frame')[0];
+    if (!iframe) return;
+
+    var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+    var restore_el = innerDoc.getElementsByTagName("button");
+
+    for (var i = 0; i < restore_el.length; i++) {
+      if (restore_el[i].id.indexOf("restore") >= 0) {
+        restore_el[i].click();
+        var close_el = innerDoc.getElementsByClassName("goog-close-link");
+        close_el[0].click();
+        return;
+      }
+    }
+  }
+
+  function triggerHtmlEvent(element, eventName) {
+    var event;
+    if (document.createEvent) {
+      event = document.createEvent('HTMLEvents');
+      event.initEvent(eventName, true, true);
+      element.dispatchEvent(event);
+    } else {
+      event = document.createEventObject();
+      event.eventType = eventName;
+      element.fireEvent('on' + event.eventType, event);
+    }
+  }
+
+  var googleCombo = document.querySelector("select.goog-te-combo");
+  var langSelect = document.querySelector('.ct-language');
+  langSelect.addEventListener('click', function(event) {
+    if (!event.target) {
+      return;
+    }
+
+    var selected = document.querySelector('.ct-language .ct-language-selected');
+    if (selected) {
+      selected.classList.remove('ct-language-selected');
+    }
+
+    var target = event.target;
+    while (target && target !== langSelect ) {
+      if (target.matches('.lang-select')) {
+        break;
+      }
+      target = target.parentElement;
+    }
+
+    if (target && target.matches('.lang-select')) {
+      var lang = target.getAttribute('data-lang');
+      if (googleCombo.value == lang) {
+        restoreLang();
+      } else {
+        target.parentElement.classList.add('ct-language-selected');
+        googleCombo.value = lang;
+        triggerHtmlEvent(googleCombo, 'change');
+      }
+    }
+
+    event.preventDefault();
+  });
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</span>
+</div>
+        </nav>
+</div>
+  </div>
+</header>
+
+<script>
+  function initHeader() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  }
+  document.addEventListener('DOMContentLoaded', initHeader);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    hashValue = decodeURIComponent(hashValue);
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div>
+
+
+
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var nightModeOption = ('auto' || 'auto').toLowerCase();
+    var storage = nightModeOption === 'manual'
+        ? localStorage
+        : sessionStorage;
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      storage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = storage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: undefined, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    if (nightModeOption == 'auto') {
+      var data = autoThemeToggle();
+
+      // Toggle theme by local setting
+      if (data.toggleAt > themeData.autoToggleAt) {
+        themeData.autoToggleAt = data.toggleAt;
+        handleThemeToggle(data.nightShift);
+      } else {
+        handleThemeToggle(themeData.nightShift);
+      }
+    } else if (nightModeOption == 'manual') {
+      handleThemeToggle(themeData.nightShift);
+    } else {
+      var nightShift = themeData.nightShift;
+      if (nightShift === undefined) {
+        nightShift = nightModeOption === 'on';
+      }
+      handleThemeToggle(nightShift);
+    }
+  })();
+</script>
+<div id="click-to-top" class="click-to-top">
+  <i class="fa fa-arrow-up"></i>
+</div>
+<script>
+  (function () {
+    const clickToTop = document.getElementById('click-to-top');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        clickToTop.classList.add('show')
+      }else {
+        clickToTop.classList.remove('show')
+      }
+    });
+    clickToTop.addEventListener('click', () => {
+      window.smoothScrollTo(0);
+    });
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <div class="post">
+  <section>
+
+
+
+
+
+
+
+
+
+<header class="post-header">
+  <h1 class="post-title p-name" itemprop="name headline">Example1</h1>
+  <h2 class="post-subtitle"></h2>
+
+  <p class="post-meta">
+    <time class="dt-published" datetime="2022-07-19T00:00:00+00:00" itemprop="datePublished"><i class="fa fa-calendar"></i> Jul 19, 2022
+    </time>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 11 mins</span>
+  </p>
+<div class="post-tags"><a class="post-tag" href="/jekyll-theme-yat/tags.html#table">#table</a></div></header>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="post-content e-content" itemprop="articleBody">
+
+      <h1 id="global-growth-cycle">Global Growth Cycle</h1>
+
+<p>by. @mgr_bobae</p>
+
+<p><a href="Global_Growth_Cycle__Identifying_Econom...pdf">Global Growth Cycle_ Identifying Econom…pdf</a></p>
+
+<hr>
+
+<ul>
+  <li>목차</li>
+</ul>
+
+<hr>
+
+<h2 id="1-introduction">1. Introduction</h2>
+
+<p><code class="language-plaintext highlighter-rouge">“ Economic growth cycle은 주기 길이는 다양할 수 있으며 이러한 변화를 일으키는 명확한 메커니즘도 명확한 주기성도 부족하다는 문제점이 있다.“</code></p>
+
+<p>→ IN REAL LIFE, 태양 주기와 같은 물리적 현상에서도 주기는 존재한다. 충분히 논의할 가치 있다.</p>
+
+<ul>
+  <li>
+    <p>[ 과거 approach ]</p>
+
+    <ul>
+      <li>
+        <p>Burns and Mitchell(1946) , Mintz(1969, 1972), 미국 NBER(National Bureau of Economic Research)</p>
+      </li>
+      <li>
+        <p>참고</p>
+
+        <p>Burns, A. F. and Mitchell, W. C. (<strong>1946</strong>
+) : Measuring Business Cycles, New York, National Bureau of Economic Research (NBER)</p>
+
+        <p>Mintz, I. (<strong>1969</strong>
+) : Dating postwar business cycles, Methods and their applications to Western Germany, 1950-1967, NBER Occasional paper 107, New York.</p>
+
+        <p>Mintz, I. (<strong>1972</strong>
+) : Dating American Growth Cycles, in V. Zarnowitz: Business cycles today, NBER, New York, 39-88.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>[ 현대 approach ]</p>
+
+    <ul>
+      <li>
+        <p><strong>선행지표 / 동행지표 / 후행지표</strong> 로 시계열 데이터를 컴파일하기 → <strong>복합 선행 지표로 전환점 찾기</strong> → <strong>피크, 바텀, 확장, 수축 단계 식별하기</strong></p>
+      </li>
+      <li>
+        <p>이 paper에서는, <code class="language-plaintext highlighter-rouge">“**OECD 종합 선행 지표(CLI)** 데이터 + OECD 외의 대국에 대한 추가 데이터”</code>이용</p>
+      </li>
+      <li>
+        <p>OECD Composite Leading Indicators 지표 설명 및 데이터 다운</p>
+
+        <p><a href="https://www.oecd.org/sdd/leading-indicators/CLI-components-and-turning-points.pdf"></a></p>
+
+        <p><a href="https://data.oecd.org/leadind/composite-leading-indicator-cli.htm">Leading indicators - Composite leading indicator (CLI) - OECD Data</a></p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<hr>
+
+<h2 id="2-diffusion-index-확산지수">2. Diffusion Index (확산지수)</h2>
+
+<p>: <strong>얼마나 component series가 함께 sync되어 이동하는 가</strong>를 측정하는 지수</p>
+
+<ul>
+  <li>
+    <p>과거 경제 연구</p>
+
+    <p>Zhao, Y. ( <strong>2020</strong> ) : dynamic factor model</p>
+  </li>
+</ul>
+
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">이 paper에서는, SentimenTrader의 실용적 방법론 이용 :각 CLI series의 월별 변화 확인, CLI 상승하는 국가 비율 계산</code></li>
+</ol>
+
+<p><img src="Untitled.png" alt="Untitled"></p>
+
+<ul>
+  <li>‘OECD 종합 선행 지표의 확산 지수’ 플롯 설명
+    <ul>
+      <li>OECD 종합 선행 지표의 확산 지수 : green</li>
+      <li>Global Mean of CLI 값 : black</li>
+      <li>0.5를 기준으로 DI와 Global mean이 자주 교차하는 등 두 값간의 연관성이 존재한다.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>→ 국가 간의 경제 성장이 더 random하다면 (덜 global하고 더 idiosyncratic한), mean global of CLI는 변동이 더 작은 선형 함수에 더 가깝게 된다.</p>
+
+<p><strong>→ BUT! DI 는 분명히 cyclical 한 특성이 있다! 또한, 경제 확장 수축과 관련한 global 상관관계가 있다!</strong></p>
+
+<ol>
+  <li>
+    <p>Global Growth Expansion, Global Growth Contraction</p>
+
+    <ol>
+      <li>
+<strong>Global Growth Expansion(이하 GGE)</strong> : Global mean이 상승하는 단계</li>
+    </ol>
+
+    <p><img src="Untitled%201.png" alt="* OECD 종합 선행 지표의 확산 지수가 0.5를 하향 돌파하는 순간이 red point
+** red point가 global mean CLI의 최댓값과 매우 가까운 것을 확인"></p>
+
+    <ul>
+      <li>OECD 종합 선행 지표의 확산 지수가 0.5를 하향 돌파하는 순간이 red point
+** red point가 global mean CLI의 최댓값과 매우 가까운 것을 확인</li>
+    </ul>
+
+    <p>b.  <strong>Global Growth Contraction(이하 GGC)</strong> : Global mean이 하락하는 단계</p>
+
+    <p><img src="Untitled%202.png" alt="* OECD 종합 선행 지표의 확산 지수가 0.5를 상향 돌파하는 순간이 blue point
+** blue point가 global mean CLI의 최솟값과 매우 가까운 것을 확인"></p>
+
+    <ul>
+      <li>OECD 종합 선행 지표의 확산 지수가 0.5를 상향 돌파하는 순간이 blue point
+** blue point가 global mean CLI의 최솟값과 매우 가까운 것을 확인</li>
+    </ul>
+
+    <blockquote>
+      <p><code class="language-plaintext highlighter-rouge">물론 False Signal도 존재한다. → Signal을 filtering 할 필요가 있다.</code></p>
+    </blockquote>
+  </li>
+</ol>
+
+<hr>
+
+<h2 id="3-filtering-the-signals">3. Filtering the signals</h2>
+
+<blockquote>
+  <p>선행 지표 전환점 감지에 자주 사용되는 Bry-Boschan 알고리즘 (이하 BBA) 이용</p>
+</blockquote>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Python 3.7 Code
+#
+# Assume 'ALLDATA' is a pandas DataFrame containing all countries' CLI values as separate columns,
+# dates are used as index rows (end of business month frequency)
+#
+# ALLDATA['total'] contains amount of total time series for each date.
+#
+# 'countries' is a list of names of all available countries in OECD data.
+# ----------------------------------
+</span>
+<span class="c1"># Diffusion Index 계산(M/M Increase percentage)
+</span><span class="n">ALLDATA</span><span class="p">[</span><span class="s">'diffusion_index'</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">countries</span><span class="p">:</span>
+<span class="n">ALLDATA</span><span class="p">.</span><span class="n">loc</span><span class="p">[</span><span class="n">ALLDATA</span><span class="p">[</span><span class="n">c</span><span class="p">].</span><span class="n">diff</span><span class="p">()</span><span class="o">&gt;</span><span class="mf">0.</span><span class="p">,</span> <span class="s">'diffusion_index'</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="n">ALLDATA</span><span class="p">[</span><span class="s">'diffusion_index'</span><span class="p">]</span> <span class="o">=</span> <span class="mf">1.</span><span class="o">*</span><span class="n">ALLDATA</span><span class="p">[</span><span class="s">'diffusion_index'</span><span class="p">]</span><span class="o">/</span><span class="n">ALLDATA</span><span class="p">[</span><span class="s">'total'</span><span class="p">]</span>
+
+<span class="c1"># calculate count of months when **diffusion_index is above 0.50 # 50% 이상의 DI** 
+# save to 'CC50' column
+# lookback period is 18 months
+</span><span class="o">**</span><span class="c1"># perform lookback only during months when Diffusion Index above 0.5 # 18개월 룩백 기간동안에도 50% 이상의 DI를 가진 것만**
+</span><span class="n">ALLDATA</span><span class="p">[</span><span class="s">'CC50'</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">xrange</span><span class="p">(</span><span class="mi">18</span><span class="p">):</span>
+<span class="n">ALLDATA</span><span class="p">.</span><span class="n">loc</span><span class="p">[(</span><span class="n">ALLDATA</span><span class="p">[</span><span class="s">'diffusion_index'</span><span class="p">]</span><span class="o">&gt;=</span><span class="mf">0.5</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">ALLDATA</span><span class="p">[</span><span class="s">'diffusion_index'</span><span class="p">].</span><span class="n">shift</span><span class="p">(</span><span class="n">i</span><span class="p">)</span><span class="o">&gt;=</span><span class="mf">0.5</span><span class="p">),</span> <span class="s">'CC50'</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+
+<span class="c1"># find specific dates
+# when expansions lasted at least 5 months and ended ## signal 과다 방지
+# (so currently CC50 = 0, but previously CC50 &gt;= 5) # 5개월보다 긴 global expansion만 선택
+# save them to a DataFrame named SIGNALS
+</span><span class="n">SIGNALS</span> <span class="o">=</span> <span class="n">ALLDATA</span><span class="p">.</span><span class="n">loc</span><span class="p">[(</span><span class="n">ALLDATA</span><span class="p">[</span><span class="s">'CC50'</span><span class="p">]</span><span class="o">==</span><span class="mi">0</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">ALLDATA</span><span class="p">[</span><span class="s">'CC50'</span><span class="p">].</span><span class="n">shift</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="o">&gt;=</span><span class="mi">5</span><span class="p">)]</span>
+
+<span class="c1"># ----------------------------------
+# Filtering of redundant signals:
+# ----------------------------------
+# as per Bry &amp; Boschan Algorithm (1971), 15 month blackout after selected signal; # BBA에서 제안한 최소 주기 길이 때문에 15개월 동안 반복되는 신호만 keep
+# forward blackout instead of backwards
+# will be using loop because result is path-dependent
+# ----------------------------------
+</span>
+<span class="c1"># 'to_keep' will be a container for masking of signals, setting first value to 'True'
+# 'last_kept_date' will be temporary variable holding the last signal date to include in final list
+</span><span class="n">SIGNALS</span><span class="p">.</span><span class="n">ix</span><span class="p">[:,</span><span class="s">'to_keep'</span><span class="p">]</span> <span class="o">=</span> <span class="bp">False</span>
+<span class="n">SIGNALS</span><span class="p">.</span><span class="n">ix</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="s">'to_keep'</span><span class="p">]</span> <span class="o">=</span> <span class="bp">True</span>
+<span class="n">last_kept_date</span> <span class="o">=</span> <span class="n">SIGNALS</span><span class="p">.</span><span class="n">index</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">SIGNALS</span><span class="p">.</span><span class="n">index</span><span class="p">:</span>
+<span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">-</span> <span class="n">last_kept_date</span><span class="p">).</span><span class="n">days</span> <span class="o">&gt;</span> <span class="mi">365</span><span class="o">*</span><span class="mi">15</span><span class="o">/</span><span class="mf">12.</span><span class="p">:</span>
+<span class="n">last_kept_date</span> <span class="o">=</span> <span class="n">i</span>
+<span class="n">SIGNALS</span><span class="p">.</span><span class="n">loc</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="s">'to_keep'</span><span class="p">]</span> <span class="o">=</span> <span class="bp">True</span>
+<span class="k">continue</span>
+
+<span class="n">SIGNALS</span> <span class="o">=</span> <span class="n">SIGNALS</span><span class="p">.</span><span class="n">loc</span><span class="p">[</span><span class="n">SIGNALS</span><span class="p">[</span><span class="s">'to_keep'</span><span class="p">]</span><span class="o">==</span><span class="bp">True</span><span class="p">]</span>
+
+<span class="c1"># **remove points before 1959**, as the data from the first years is too sparse to take signals seriously
+## 1955년부터의 자료지만, 18개월 룩백 기간을 고려해서 1959년 이후의 시그널만 시그널로 채택
+</span><span class="n">SIGNALS</span> <span class="o">=</span> <span class="n">SIGNALS</span><span class="p">[</span><span class="s">'1959'</span><span class="p">:]</span>
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>결과</p>
+
+    <p><img src="Untitled%203.png" alt="* OECD 종합 선행 지표의 확산 지수와 S&amp;P500 지수 비교
+** red point : Global growth cycle의 expansion 단계의 끝을 의미, 결과적으로 contraction 단계의 시작을 나타낸다."></p>
+
+    <ul>
+      <li>OECD 종합 선행 지표의 확산 지수와 S&amp;P500 지수 비교
+** red point : Global growth cycle의 expansion 단계의 끝을 의미, 결과적으로 contraction 단계의 시작을 나타낸다.</li>
+    </ul>
+
+    <p><img src="Untitled%204.png" alt="* OECD 종합 선행 지표의 확산 지수와 S&amp;P500 지수 비교
+** blue point : Global growth cycle의 contraction 단계의 끝을 의미, 결과적으로 expansion 단계의 시작을 나타낸다."></p>
+
+    <ul>
+      <li>OECD 종합 선행 지표의 확산 지수와 S&amp;P500 지수 비교
+** blue point : Global growth cycle의 contraction 단계의 끝을 의미, 결과적으로 expansion 단계의 시작을 나타낸다.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr>
+
+<h2 id="4-a-typical-expansion-cycle">4. A typical expansion cycle</h2>
+
+<ul>
+  <li>
+    <p>end of GGE, end of GGC 시그널 목록</p>
+
+    <p><img src="Untitled%205.png" alt="Untitled"></p>
+
+    <p><img src="Untitled%206.png" alt="Untitled"></p>
+
+    <ul>
+      <li>2014년과 2016년 사이를 제외하고 거의 모든 신호가 번갈아 나타난다.
+** GGE와 GGC 시그널 사이에는 약간의 차이가 있지만, 이들을 합치면 평균 주기가 <strong>31.5 ± 9.9</strong> 개월이다.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>확장 기간과 수축 기간의 유사성을 보기 위해 <strong>DI plot ( ‘모든 신호의 평균’ : 검정색 )</strong></p>
+
+<p><img src="Untitled%207.png" alt="* global growth expansion ending signal : **2000년 5월** , **2007년 7월**"></p>
+
+<ul>
+  <li>global growth expansion ending signal : <strong>2000년 5월</strong> , <strong>2007년 7월</strong>
+</li>
+</ul>
+
+<p><img src="https://grzegorz.link/media/growth/SPX-pre-and-post-cycle-down.png" alt="https://grzegorz.link/media/growth/SPX-pre-and-post-cycle-down.png"></p>
+
+<p><img src="Untitled%208.png" alt="* global growth contraction ending signal : **2009년 3월** , **2016년 5월, 2020년 5월**"></p>
+
+<ul>
+  <li>global growth contraction ending signal : <strong>2009년 3월</strong> , <strong>2016년 5월, 2020년 5월</strong>
+</li>
+</ul>
+
+<p><img src="Untitled%209.png" alt="Untitled"></p>
+
+<ul>
+  <li>해석
+    <ul>
+      <li><strong>DI가 signal 시점 전후에 주기적으로 변동하는 경향이 있다!</strong></li>
+      <li>하단 플롯에서 볼수 있듯이, S&amp;P500 지수는 일반적으로 “확장 국면 ending” signal 전 12-18개월의 기간에 상승하고 그 후 1년 동안 대부분 평평하다.  “확장 국면 starting” signal 전 평균적으로 3-5개월 전에 상승하기 시작한다.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr>
+
+<h2 id="5-global-growth-cycle-model">5. Global Growth Cycle model</h2>
+
+<h3 id="-a-typical-expansion-cycle을-model-로-만들기">→ A typical expansion cycle을 model 로 만들기!</h3>
+
+<aside>
+💡 Stay long whenever DI ≥ 0.5,
+
+
+Stay out of the market when DI &lt; 0.5
+
+( 필터링(최소 5개월 확장 + 사이클당 최소 15개월) )
+
+</aside>
+
+<ul>
+  <li>
+    <p>결과</p>
+
+    <p><img src="Untitled%2010.png" alt="* Global growth expansion(green) 및 Global growth contraction(red) 동안 S&amp;P500 지수를 buy하는 모델
+** CAGR은 복합 연간 성장률, maxDD는 최근 고점에서 최대 하락"></p>
+
+    <ul>
+      <li>
+        <p>Global growth expansion(green) 및 Global growth contraction(red) 동안 S&amp;P500 지수를 buy하는 모델
+** CAGR은 복합 연간 성장률, maxDD는 최근 고점에서 최대 하락</p>
+      </li>
+      <li>
+        <p>문제점</p>
+        <ul>
+          <li>CLI data가 즉시 보고되지 않는다…! 목표 날짜(값이 계산되는 날짜, 즉 전월 말)와 발행일 사이의 시차는 9일에서 14일 사이이다.
+            <ul>
+              <li>첫 번째 날이 그로부터 과거 날짜로부터 15일 후라고 가정 → <strong>데이터 포인트를 전략의 시작점으로 15일 앞으로 이동</strong>
+</li>
+            </ul>
+          </li>
+          <li>CLI를 비롯한 거시경제 데이터는 수정될 수 있다는 점(즉 첫 발행 후 2~3개월이 지나도 데이터가 거꾸로 수정될 수 있다.)
+            <ul>
+              <li>다른 방법으로 해결할 방법이 없기 때문에 “시간이 지나면 충분히 역사적으로 수정이 “된다고 낙관적으로 가정</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>15일 이동 모델</strong></p>
+
+    <p><img src="Untitled%2011.png" alt="Untitled"></p>
+
+    <ul>
+      <li>결과
+        <ul>
+          <li><strong>CAGR가 너무 큰 것은 아니지만, maxDD도 낮은 편이고 위험조정 수익율로 passive B&amp;H 전략보다 낫다.</strong></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<hr>
+
+<h2 id="6-global-growth-cycle-strategy---a-tool-for-actively-managed-stock-market-allocation">6. Global Growth Cycle strategy - a tool for actively managed stock market allocation</h2>
+
+<h3 id="-growth-trend-timing-approach추세추종전략-접목">→ ‘Growth trend timing approach(추세추종전략)’ 접목</h3>
+
+<aside>
+💡 Stay long whenever DI ≥ 0.5,
+
+
+Switch to a market timing procedure when DI &lt; 0.5
+
+</aside>
+
+<ul>
+  <li>
+    <p>결과</p>
+
+    <p><img src="Untitled%2012.png" alt="* Global growth cycle strategy(green), 전략이 시장에서 벗어난 기간(red)
+** global growth expansion 동안 S&amp;P500을 매수하고, 그렇지 않으면 이동 평균(단순 50일 이평선)에 따라 시장을 곱하는 전략
+*** CAGR은 복합 연간 성장률, maxDD는 최근 고점에서 최대 하락"></p>
+
+    <ul>
+      <li>
+        <p>Global growth cycle strategy(green), 전략이 시장에서 벗어난 기간(red)
+** global growth expansion 동안 S&amp;P500을 매수하고, 그렇지 않으면 이동 평균(단순 50일 이평선)에 따라 시장을 곱하는 전략
+*** CAGR은 복합 연간 성장률, maxDD는 최근 고점에서 최대 하락</p>
+      </li>
+      <li>CAGR 증가 / maxDD 훨씬 크게 증가 → 위험 조정 수익률 하락</li>
+      <li>50일 이동 평균만 사용하는 “시장 타이밍 only” 전략은 6.1% CAGR,  39% maxDD를 가지는 것과 비교하면, 선행 지표 데이터는 추가 손실 없이 기본적 결과를 매년 3% 향상시킨다고 볼 수 있음.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr>
+
+<h2 id="7-global-results">7. Global results</h2>
+
+<p>이 paper에서는, 호주, 일본, 독일, 프랑스, 이탈리아, 폴란드 6개의 다른 글로벌 시장들의 비슷한 시기의  백테스트를 진행함</p>
+
+<ul>
+  <li>
+    <p>global result 보기</p>
+
+    <p><img src="Untitled%2013.png" alt="Untitled"></p>
+
+    <p><img src="Untitled%2014.png" alt="* model(15일 이동 모델), 타이밍 전략(50일 이평선 사용)"></p>
+
+    <ul>
+      <li>model(15일 이동 모델), 타이밍 전략(50일 이평선 사용)</li>
+    </ul>
+  </li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">결과가 비슷하다! global growth expansion &amp; contraction 효과의 관찰과 일치한다.</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">→ 즉 .물론 individual 변동이 있을 수 있지만, 글로벌 시장이 상승할 때 일제히 상승하는 경향이 있다.</code></p>
+
+<hr>
+
+<h2 id="8-discussion">8. Discussion</h2>
+
+<p>CLI가 수정될 수 있는 거시경제 데이터를 기반으로 한다는 것(물론 역사적으로 수정이 처음 발표된 추정치와 크게 다르지 않았다)</p>
+
+<p>CLI의 절대값보다는 확산 지수의 월별 변화 방향(국가별 위 또는 아래)이 더 중요하다.</p>
+
+<p>백테스트에 불과하다 (15일 이동 모델은 한 달에 최대 한 번 거래해야 하고 일반적으로 몇 달에 한 번 이상 포지션을 변경해야 하긴 한다. 여기서는 거래 비용은 무시되었다.)</p>
+
+<p>과거 실적이 미래 결과를 보장하지 않는다.</p>
+
+
+    </div>
+
+</article>
+<div class="post-nav">
+<a class="previous" href="/jekyll-theme-yat/jekyll/2018/12/07/welcome-to-jekyll.html" title="Welcome to Jekyll!">Welcome to Jekyll!</a><span></span>
+</div>
+<div class="post-related">
+      <div>Related Articles</div>
+      <ul>
+        <li><a class="post-link" href="/jekyll-theme-yat/junk/2016/08/12/my-example-post.html" title="">My Example Post</a></li>
+<li><a class="post-link" href="/jekyll-theme-yat/misc/2016/05/19/super-short-article.html" title="">Some articles are just so short that we have to make the...</a></li>
+<li><a class="post-link" href="/jekyll-theme-yat/markdown/2016/01/01/another-test-markdown.html" title="">Another test markdown</a></li>
+<li><a class="post-link" href="/jekyll-theme-yat/example/2017/12/08/mermaid-example.html" title="">Mermaid example</a></li>
+</ul>
+    </div>
+<div class="post-comments"></div></section>
+</div>
+
+
+  </section>
+  <section class="sidebar" style="margin-left: 15px;">
+    <!-- Get sidebar items --><style type="text/css" media="screen">
+.post-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+</style>
+
+<div class="post-menu">
+  <div class="post-menu-title">TOC</div>
+  <div class="post-menu-content"></div>
+</div>
+
+<script>
+  function generateContent() {
+    var menu = document.querySelector(".post-menu");
+    var menuContent =  menu.querySelector(".post-menu-content");
+    var headings = document.querySelector(".post-content").querySelectorAll("h2, h3, h4, h5, h6");
+
+    // Hide menu when no headings
+    if (headings.length === 0) {
+      return menu.style.display = "none";
+    }
+
+    // Generate post menu
+    var menuHTML = '';
+    for (var i = 0; i < headings.length; i++) {
+      var h = headings[i];
+      menuHTML += (
+        '<li class="h-' + h.tagName.toLowerCase() + '">'
+        + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+    }
+
+    menuContent.innerHTML = '<ul>' + menuHTML + '</ul>';
+
+    // The header element
+    var header = document.querySelector('header.site-header');
+
+    function doMenuCollapse(index, over_items) {
+      var items = menuContent.firstChild.children;
+
+      if (over_items == undefined) {
+        over_items = 20;
+      }
+
+      if (items.length < over_items) {
+        return;
+      }
+
+      var activeItem = items[index];
+      var beginItem = activeItem
+      var endItem = activeItem
+      var beginIndex = index;
+      var endIndex = index + 1;
+      while (beginIndex >= 0
+        && !items[beginIndex].classList.contains('h-h2')) {
+        beginIndex -= 1;
+      }
+      while (endIndex < items.length
+        && !items[endIndex].classList.contains('h-h2')) {
+        endIndex += 1;
+      }
+      for (var i = 0; i < beginIndex; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+      for (var i = beginIndex + 1; i < endIndex; i++) {
+        item = items[i]
+        // if (!item.classList.contains('h-h2')) {
+          item.style.display = '';
+        // }
+      }
+      for (var i = endIndex; i < items.length; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+    }
+
+    // Init menu collapsed
+    doMenuCollapse(-1);
+
+    // Active the menu item
+    window.addEventListener('scroll', function (event) {
+      var lastActive = menuContent.querySelector('.active');
+      var changed = true;
+      var activeIndex = -1;
+      for (var i = headings.length - 1; i >= 0; i--) {
+        var h = headings[i];
+        var headingRect = h.getBoundingClientRect();
+        var headerRect = header.getBoundingClientRect();
+        var headerTop = Math.floor(headerRect.top);
+        var headerHeight = Math.floor(headerRect.height);
+        var headerHeight = headerTop + headerHeight + 20;
+        if (headingRect.top <= headerHeight) {
+          var id = 'h-' + h.getAttribute('id');
+          var a = menuContent.querySelector('a[href="#' + id  + '"]');
+          var curActive = a.parentNode;
+          if (curActive) {
+            curActive.classList.add('active');
+            activeIndex = i;
+          }
+          if (lastActive == curActive) {
+            changed = false;
+          }
+          break;
+        }
+      }
+      if (changed) {
+        if (lastActive) {
+          lastActive.classList.remove('active');
+        }
+        doMenuCollapse(activeIndex);
+      }
+      event.preventDefault();
+    });
+  }
+  generateContent();
+</script>
+</section>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/jekyll-theme-yat/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+<div>Unpublished Work <span class="copyleft">©</span> 2017-2022 Bobae Kim</div>
+      <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
+      generator." href="https://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
+      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>.</div>
+      <div class="footer-col rss-subscribe">Subscribe <a href="/jekyll-theme-yat/feed.xml">via RSS</a>
+</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
